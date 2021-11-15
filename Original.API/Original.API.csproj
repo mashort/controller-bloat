@@ -6,8 +6,12 @@
 
   <ItemGroup>
     <None Remove="Controllers\" />
+    <None Remove="ApiModels\" />
+    <None Remove="DomainModels\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="ApiModels\" />
+    <Folder Include="DomainModels\" />
   </ItemGroup>
 </Project>
