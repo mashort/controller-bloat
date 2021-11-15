@@ -8,10 +8,18 @@
     <None Remove="Controllers\" />
     <None Remove="ApiModels\" />
     <None Remove="DomainModels\" />
+    <None Remove="Data\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Data\EntityTypeConfigurations\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="ApiModels\" />
     <Folder Include="DomainModels\" />
+    <Folder Include="Data\" />
+    <Folder Include="Data\EntityTypeConfigurations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
   </ItemGroup>
 </Project>
